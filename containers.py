@@ -41,6 +41,10 @@ for idx, student in enumerate(students_names):
 awesome_students = [f"{student} is awesome!" for student in students_names]
 print(awesome_students)
 
+# 8.
 
+for food in foods:
+    if "a" in food:
+        print(food)
 
 
