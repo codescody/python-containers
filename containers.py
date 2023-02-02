@@ -36,6 +36,11 @@ for idx, student in enumerate(students_names):
     })
     print(cohort[idx])
 
+# 7.
+
+awesome_students = [f"{student} is awesome!" for student in students_names]
+print(awesome_students)
+
 
 
 
