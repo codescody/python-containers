@@ -7,5 +7,11 @@ print(students_names[1])
 
 # 2.
 
-foods = ()
+foods = ("Steak", "Ahi Tuna", "Chicken", "Burger")
+for food in foods:
+    print(food, "is a good food")
+
+# 3.
+
+
 
