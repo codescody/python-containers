@@ -26,5 +26,16 @@ print(f"I was born in {home_town['city']}, {home_town['state']} - Population of 
 for key, val in home_town.items():
 	print( f"{key} = {val}" )
 
+# 6.
+
+cohort =[]
+for idx, student in enumerate(students_names):
+    cohort.append({
+        "student": student,
+        "food": foods[idx]
+    })
+    print(cohort[idx])
+
+
 
 
