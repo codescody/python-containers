@@ -13,5 +13,11 @@ for food in foods:
 
 # 3.
 
+for food in range(-2, 0):
+    print(foods[food])
+
+# 4.
+
+
 
 
