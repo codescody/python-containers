@@ -18,6 +18,8 @@ for food in range(-2, 0):
 
 # 4.
 
+home_town = {"city":"Saint Petersburg", "state":"Florida", "population":258512}
+print(f"I was born in {home_town['city']}, {home_town['state']} - Population of {home_town['population']}")
 
 
 
